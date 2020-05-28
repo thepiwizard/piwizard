@@ -400,8 +400,9 @@ function singlerom(){
     errormessage+="Has it been longer than 24Hours? \n"
     errormessage+=" \n"
     errormessage+="If you so you will need to start over.\n"
+    errormessage+=" \n"
     errormessage+="Otherwise, please contact support."
-    display_output 10 80 "$errormessage"
+    display_output 12 60 "$errormessage"
   fi
   cd $SCRIPTPATH
 }
